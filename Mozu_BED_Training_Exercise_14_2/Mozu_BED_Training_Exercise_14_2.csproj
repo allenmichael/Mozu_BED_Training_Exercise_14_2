@@ -45,10 +45,10 @@
       <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
     </Reference>
     <Reference Include="Mozu.Api">
-      <HintPath>..\packages\Mozu.Api.SDK.1.17.0\lib\net45\Mozu.Api.dll</HintPath>
+      <HintPath>..\packages\Mozu.Api.SDK.1.18.1\lib\net45\Mozu.Api.dll</HintPath>
     </Reference>
     <Reference Include="Mozu.Api.ToolKit">
-      <HintPath>..\packages\Mozu.Api.ToolKit.1.2.8\lib\Mozu.Api.ToolKit.dll</HintPath>
+      <HintPath>..\packages\Mozu.Api.ToolKit.1.2.9\lib\Mozu.Api.ToolKit.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -88,9 +88,10 @@
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
-    <None Include="packages.config">
-      <SubType>Designer</SubType>
+    <None Include="Mozu.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="EmailTemplates\ErrorEmailTemplate.txt">
